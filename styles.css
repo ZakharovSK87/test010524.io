@@ -1,0 +1,186 @@
+body {
+
+    background-color: rgb(14, 12, 12);
+    min-width: 320px;
+    font-family: 'roboto',  sans-serif;
+    height: 100%;
+    align-items: center;
+    transition: background-color 0.3s;
+    
+}
+
+
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1800px; /* Максимальная ширина контейнера */
+    min-width: 320px;
+    margin: 0 auto; /* Центрирование контейнера */
+    margin-top: 30px;
+   
+  }
+
+  /* Стили для изображения */
+  .container img {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border-radius: 30px;
+    margin-left: 30px;
+    
+    
+    
+   
+  }
+
+  /* Стили для текста и кнопки */
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #e8e9ec; /* Цвет текста */
+  }
+
+  /* Стили для кнопки */
+  .btn-overlay {
+    margin-top: 10px;
+    color: azure;
+  }
+
+  .block1 {
+
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+  }
+
+
+  .test1 {
+
+    font-size: 50px;
+    color: #e8e9ec;
+    margin-left: 50px;
+  }
+
+  .block2 {
+
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+  }
+
+  /* CSS для изменения цвета карточки при наведении */
+  .card-dark {
+    background-color: #212529; /* Темный цвет фона */
+    color: #ffffff; /* Белый цвет текста */
+}
+
+.card-dark:hover {
+    background-color: #041f3d; /* Синий цвет фона при наведении */
+}
+
+.block3 {
+
+  margin-left: 250px;
+  margin-bottom: 100px;
+}
+
+
+.wave-line {
+  height: 4px; /* Высота линии */
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+}
+
+
+
+
+
+.block4 {
+
+ margin-left: 250px;
+  
+  
+}
+
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 120px;
+  background-color: #343a40; /* Цвет фона */
+  padding-top: 70px; /* Отступ сверху */
+}
+
+/* Стили для элементов меню */
+.sidebar-item {
+  padding: 10px 20px;
+  color: #fff; /* Цвет текста */
+}
+
+/* Стили для активного элемента меню */
+.sidebar-item.active {
+  background-color: #495057; /* Цвет активного элемента */
+}
+
+
+.container {
+  padding: 40px;
+}
+
+/* Стили для круглой кнопки */
+.theme-toggle {
+  position: fixed;
+  top: 95%;
+  left: 20px;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #31353a; /* Цвет кнопки в темной теме */
+  color: #fff; /* Цвет текста на кнопке */
+  border: none;
+  cursor: pointer;
+}
+
+.dark-theme {
+  background-color: #333; /* Цвет темного фона */
+  color: #fff; /* Белый текст */
+}
+
+.light-theme {
+  background-color: #fff; /* Цвет светлого фона */
+  color: #000; /* Черный текст */
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+
+.search-btn {
+  background-color: transparent;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 10px;
+}
+
+.search-btn:hover {
+  background-color: #888484; /* Цвет фона при наведении */
+}
+
+.search-btn:focus {
+  outline: none; /* Убираем обводку при фокусе */
+}
+
+.search-btn i {
+  color: #bdafaf; /* Цвет иконки */
+  font-size: 25px; /* Размер иконки */
+}

@@ -1,0 +1,16 @@
+
+
+// Подключение Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Переопределение переменных Bootstrap
+$text-color: #000; // Черный цвет текста
+
+// Дополнительные пользовательские стили
+@mixin gradient-bg($color: null) {
+    background-color: $color;
+  
+    @if $enable-gradients {
+      background-image: var(--#{$prefix}gradient);
+    }
+  }
